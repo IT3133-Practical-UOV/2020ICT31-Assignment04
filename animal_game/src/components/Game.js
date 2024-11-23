@@ -22,6 +22,9 @@ export default function Game() {
   const handleAnimalSelection = (animal) => {
     if (animal.name.toLowerCase() === selectedAnimal.name.toLowerCase()) {
       setGameResult("WIN");
+      setTimeout(() => {
+        selectRandomAnimal();
+      }, 1000);
     } else {
       setGameResult("LOSE");
     }
