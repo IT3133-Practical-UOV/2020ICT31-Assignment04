@@ -1,6 +1,6 @@
 # 2020ICT31-Assignment04
 
-# Animal Matching Game
+## Animal Matching Game
 
 The **Animal Matching Game** is an interactive React application where players match a displayed animal name with the correct animal image from a grid. This game helps improve visual recognition and decision-making skills in a fun and engaging way.
 
